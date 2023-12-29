@@ -4,7 +4,7 @@ import { genPageMetadata } from 'app/seo'
 
 export const metadata = genPageMetadata({ title: 'Products' })
 
-export default function Prodeucts() {
+export default function Products() {
   return (
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
