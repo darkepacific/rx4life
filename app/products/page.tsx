@@ -13,7 +13,7 @@ export default function Products() {
             Products
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Showcase your products with a hero image (16 x 9)
+            We offer a variety of products to help you achieve your goals.
           </p>
         </div>
         <div className="container py-12">
