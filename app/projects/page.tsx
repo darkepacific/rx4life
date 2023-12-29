@@ -1,10 +1,10 @@
-import projectsData from '@/data/projectsData'
+import productsData from '@/data/productsData'
 import Card from '@/components/Card'
 import { genPageMetadata } from 'app/seo'
 
 export const metadata = genPageMetadata({ title: 'Products' })
 
-export default function Projects() {
+export default function Prodeucts() {
   return (
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -18,7 +18,7 @@ export default function Projects() {
         </div>
         <div className="container py-12">
           <div className="-m-4 flex flex-wrap">
-            {projectsData.map((d) => (
+            {productsData.map((d) => (
               <Card
                 key={d.title}
                 title={d.title}
