@@ -40,6 +40,7 @@ export default function Home({ posts }) {
                             width={500}
                             height={300}
                             layout="responsive"
+                            className="p-5"
                           />
                         )}
                       </dd>
