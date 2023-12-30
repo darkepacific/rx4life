@@ -99,7 +99,6 @@ export default function PostLayout({ content, authorDetails, next, prev, childre
                   Discuss on LinkedIn
                 </Link>
                 {` • `}
-                {/* <Link href={editUrl(filePath)}>View on GitHub</Link> */}
               </div>
               {siteMetadata.comments && (
                 <div
