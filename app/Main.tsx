@@ -34,7 +34,13 @@ export default function Home({ posts }) {
                       </dd>
                       <dd>
                         {images && images[0] && (
-                          <Image src={images[0]} alt={title} width={500} height={300} layout="responsive"/>
+                          <Image
+                            src={images[0]}
+                            alt={title}
+                            width={500}
+                            height={300}
+                            layout="responsive"
+                          />
                         )}
                       </dd>
                     </dl>
