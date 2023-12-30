@@ -11,7 +11,7 @@ const productsData = [
     title: 'Behavioral Health Services',
     description: `More Americans than ever before are suffering from mental and emotional distress. According to a new study published in the journal Psychiatric Services, 3.4% of the U.S. population, or more than 8 million Americans, suffer from serious psychological distress (SPD). The Altera HealthTec behavioral health screening system is easy to implement and can be incorporated into the operations of the practice onsite quickly and seamlessly.`,
     imgSrc: '/static/images/bhs-hero.png',
-    href: '/blog/putting-patients-first',
+    href: '/blog/putting-people-first',
   },
 ]
 
