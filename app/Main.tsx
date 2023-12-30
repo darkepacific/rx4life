@@ -33,14 +33,8 @@ export default function Home({ posts }) {
                         <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
                       </dd>
                       <dd>
-                        {images && images[0] && ( //This expression is used to check if the images array exists and has at least one item in it before attempting to render an image.
-                          <Image
-                            src={images[0]}
-                            alt={title}
-                            width={500} // Adjust as needed
-                            height={300} // Adjust as needed
-                            layout="responsive" // Optional: Adjust layout as needed
-                          />
+                        {images && images[0] && (
+                          <Image src={images[0]} alt={title} width={500} height={300} layout="responsive"/>
                         )}
                       </dd>
                     </dl>
