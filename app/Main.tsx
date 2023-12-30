@@ -3,6 +3,7 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
 import NewsletterForm from 'pliny/ui/NewsletterForm'
+import Image from 'next/image'
 
 const MAX_DISPLAY = 9
 
@@ -32,11 +33,15 @@ export default function Home({ posts }) {
                         <time dateTime={date}>{formatDate(date, siteMetadata.locale)}</time>
                       </dd>
                       <dd>
-                        <img
-                          src={`${images}`}
-                          alt={title}
-                          className="w-auto h-auto max-w-full max-h-60 object-cover" // Adjust size as appropriate
-                        />
+                        {images && images[0] && ( //This expression is used to check if the images array exists and has at least one item in it before attempting to render an image.
+                          <Image
+                            src={images[0]}
+                            alt={title}
+                            width={500} // Adjust as needed
+                            height={300} // Adjust as needed
+                            layout="responsive" // Optional: Adjust layout as needed
+                          />
+                        )}
                       </dd>
                     </dl>
                     <div className="space-y-5 xl:col-span-3">
