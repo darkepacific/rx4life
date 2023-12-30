@@ -12,8 +12,8 @@ import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 
 const editUrl = (path) => `${siteMetadata.siteRepo}/blob/main/data/${path}`
 const discussUrl = (path) =>
-  `https://www.linkedin.com/in/david-arday-md-mph-456b1a4/`  
-  // `https://mobile.twitter.com/search?q=${encodeURIComponent(`${siteMetadata.siteUrl}/${path}`)}`
+  `https://mobile.twitter.com/search?q=${encodeURIComponent(`${siteMetadata.siteUrl}/${path}`)}`
+  // `https://www.linkedin.com/in/david-arday-md-mph-456b1a4/`  
 
 const postDateTemplate: Intl.DateTimeFormatOptions = {
   weekday: 'long',
