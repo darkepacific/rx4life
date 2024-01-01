@@ -14,7 +14,7 @@ const Header = () => {
           <div className="flex items-center justify-between">
             <div className="mr-3">
               {/* <Logo /> */}
-              <img src="public/static/images/logo.png" alt="logo" class="h-10 w-10">
+              <img src="public/static/images/logo.png" alt="logo" class="h-10 w-10"></img>
             </div>
             {typeof siteMetadata.headerTitle === 'string' ? (
               <div className="hidden h-6 text-2xl font-semibold sm:block">
