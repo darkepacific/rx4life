@@ -16,9 +16,6 @@ const Header = () => {
               {/* <Logo /> */}
               <img src="/static/images/logo.png" alt="logo" className="h-20 w-20"></img>
             </div>
-            <div>
-              <img src="public/static/images/LinkedinHeader2.png" alt="background" className="absolute top-0 left-0 z-0 w-full h-full opacity-50"></img>
-            </div>
             {typeof siteMetadata.headerTitle === 'string' ? (
               <div className="hidden h-6 text-2xl font-semibold sm:block">
                 {siteMetadata.headerTitle}
